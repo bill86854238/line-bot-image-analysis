@@ -1,0 +1,6 @@
+function writeLog(step, data) {
+  const sheetId = "";
+  const sheetName = "Log";
+  const sheet = SpreadsheetApp.openById(sheetId).getSheetByName(sheetName) || SpreadsheetApp.openById(sheetId).insertSheet(sheetName);
+  sheet.appendRow([new Date(), step, JSON.stringify(data)]);
+}
