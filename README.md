@@ -34,16 +34,13 @@
 
 1. 前往 [LINE Developers Console](https://developers.line.biz/)
 2. 建立 Messaging API Channel
-3. 記下：
-   - `Channel Access Token`
-   - `Channel Secret`
-4. 設定 Webhook URL 為部署後的 GAS 網址（`doPost` entry point）
+3. 設定 Webhook URL 為部署後的 GAS 網址（`doPost` entry point）
 
 ### 3. 啟用 Gemini API 並取得金鑰
 
 1. 前往 [Google AI Studio](https://makersuite.google.com/app/apikey)
-2. 申請 Gemini API 金鑰（需啟用 Vision 功能）
-3. 建議使用 Gemini 1.5 Flash / Flash Lite（1.0 Vision 已棄用）
+2. 申請 Gemini API 金鑰
+3. 建議使用 Gemini 2.0 Flash / Flash Lite
 
 ### 4. 設定環境變數（在 GAS 中加到 Script Properties）
 
